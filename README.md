@@ -1,0 +1,7 @@
+# MetaPreserving
+
+MetaPreserving is a zero-knowledge identity verification system that enables users to prove specific attributes about themselves without revealing underlying data or creating linkable identities across services. The platform features a temporal credential architecture where identity proofs have built-in expiration and automatic rotation, preventing long-term tracking while maintaining verification integrity.
+
+The system implements recursive zero-knowledge proofs combined with threshold signatures from a decentralized validator network to enable efficient verification of complex credential combinations. Smart contracts manage credential issuance through multi-party computation protocols and maintain a credential registry with time-locked commitments, ensuring no single validator can reconstruct original identity data. The technical architecture uses selective disclosure protocols and reputation aggregation systems that prevent Sybil attacks through stake-weighted proof validation.
+
+MetaPreserving enables privacy-preserving solutions for DeFi KYC compliance, professional networking, and confidential voting systems with verified eligibility. Users can build portable reputation scores across platforms while maintaining complete anonymity, proving criteria like income thresholds or professional credentials without exposing exact values. The system creates trustworthy anonymous marketplaces and enables secure peer-to-peer interactions through verified reputation accumulation without compromising user privacy.
